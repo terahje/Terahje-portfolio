@@ -77,5 +77,13 @@ a {
 }
 
 .hero {
-    
+    background-image: url("../images/hero-back.jpg");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: flex-end;
+    background-attachment: fixed;
+    z-index: 999;
 }
