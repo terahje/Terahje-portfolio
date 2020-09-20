@@ -18,7 +18,7 @@ body {
 }
 /* apply styles to <header> */
 header {
-    padding: 15px 20px;
+    padding: 0px 20px;
     background-color: var(--forth-color);
     height: 60px;
     position: relative;
@@ -49,7 +49,7 @@ header h1 {
 
 header nav {
     float: right;
-    padding: 15px;
+    padding: 7px;
 }
 
 header nav ul li {
@@ -68,20 +68,24 @@ header nav ul li a {
 /*styles to <hero> start*/
 .hero {
     background-image: url("../images/hero-back2.jpg");
-    background-size: 1360px;
+    background-size: 100%;
     background-position: center;
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
-    height:400px;
+    justify-content: flex-end;
+    height:450px;
     position: relative;
     width:100%;
     
 }
 
-.my-pic-container {
-    display: grid;
-    grid-row: 2fr;
+.card {
+    margin: 0px 160px 0px 0px;
+    border: none
+}
+
+.card-body {
+    background-color: #22222e;
 }
 
 .hero-subtitle {
@@ -114,7 +118,7 @@ header nav ul li a {
 /* styles to background */
 .layout {
     background: var(--primary-color);
-    height: 1045px;
+    height: 1140px;
 }
 
 /* styles <bio> */
@@ -169,7 +173,7 @@ header nav ul li a {
     border: 3px solid var(--tertiary-color);
     grid-column:span 8;
     grid-row: span 2;
-    background-image: url("../images/taskmaster.jpg");
+    background-image: url("../images/wizier.jpg");
     background-size: cover;
 }
 
@@ -274,8 +278,8 @@ transition: 0.6s
 
 /* Media query for smaller screens */
 
-@media screen and (max-width: 980px) {
-    /* this will be applied on any screen smaller than 980px */
+@media screen and (max-width: 1100px) {
+    /* this will be applied on any screen smaller than 1100px */
     header {
         padding-bottom: 0;
         justify-content: center;
@@ -285,16 +289,126 @@ transition: 0.6s
     header h1 {
         width: 100%;
         text-align: center;
+        font-size: 35px;
     }
     
     header nav ul {
-        margin-top: 20px;
+        margin-top: 0px;
         width: 100%;
         justify-content: center;
     }
 
     header nav ul li a {
         font-size: 20px;
+    }
+
+    .layout {
+        height: 2850px;
+    }
+
+    .hero {
+        height: 400px;
+    }
+
+    img {
+        height: 336px;
+    }
+
+    .work h2 {
+        color: var(--forth-color);
+        text-align: left;
+        font-size: 45px;
+        margin-bottom: 35px;
+        padding: 0px 50px 25px 42px;
+        border-right: 3px solid;
+        float: left;
+        border-color: var(--forth-color);
+        line-height: 21.5;
+    }
+
+    .grid-item {
+        grid-column: span 8;
+        border: 3px solid var(--tertiary-color);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+    }
+
+    .grid-item-gitItDone {
+        border: 3px solid var(--tertiary-color);
+        background-image: url("../images/gitItDone.jpg");
+        background-size: cover;
+        grid-column: span 8;
+    }
+
+    .grid-item-week5Challenge {
+        border: 3px solid var(--tertiary-color);
+        background-image: url("../images/week5Challenge.jpg");
+        background-size: cover;
+        grid-column: span 8;
+    }
+
+    .grid-item-runBuddy {
+        border: 3px solid var(--tertiary-color);
+        background-image: url("../images/run-buddy.jpg");
+        background-size: cover;
+        grid-column: span 8;
+    }
+
+    .grid-container {
+        display: grid;
+        color: var(--forth-color);
+        grid-gap: 105px;
+    }
+
+    .background {
+        background: #c7d5d6;
+        height: 1500px;
+    }
+}
+
+
+
+/* MEDIA QUERY FOR TABLETS AND SMALLER */
+@media screen and (max-width: 980px) {
+    /* this will be applied on any screen between 980 and 768px */
+    * {
+        margin: 0;
+    }
+
+    header {
+        padding-bottom: 0;
+        justify-content: center;
+        position: relative;
+    }
+
+    header h1 {
+        width: 100%;
+        text-align: center;
+        font-size: 30px;
+    }
+    
+    header nav ul {
+        margin-top: 0px;
+        width: 100%;
+        justify-content: center;
+    }
+
+    header nav ul li a {
+        font-size: 15px;
+    }
+
+    .layout {
+        height: 2850px;
+    }
+
+    .hero {
+        height: 390px;
+    }
+
+    img {
+        height: 326px;
     }
 
     .work h2 {
