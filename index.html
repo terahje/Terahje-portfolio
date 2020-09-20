@@ -3,28 +3,29 @@
     <head>
         <meta charset="UTF-8"/>
         <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
         <link rel="stylesheet" href="./assets/css/style.css"/>
         <title>Terahje's Portfolio</title>
     </head>
     <body class="page-color">
         <!-- header nav section -->
         <header>
-            <h1 class="title-container">Terahje's Portfolio</h1>
+            <h1 class="title-container">Terahje Gratkowski</h1>
             <nav>
                 <ul>
                     <li>
-                        <a href="#about-me">About Me</a>
+                        <a href="#about-me"><u>About Me</u></a>
 
                     </li>
                     <li>
-                        <a href="#work">Work</a>
+                        <a href="#work"><u>Work</u></a>
                     </li>
                     <li>
-                        <a href="#contact-me">Contact Me</a>
+                        <a href="#contact-me"><u>Contact Me</u></a>
                     </li>
       
                     <li>
-                        <a href="#resume">Resume</a>
+                        <a href="#resume"><u>Resume</u></a>
                     </li>
                 </ul>
             </nav>
@@ -32,91 +33,88 @@
 
         <!-- hero section -->
         <section class="hero">
-            <div class="my-pic-hero">
-                <h3 class="nested-hero">Getting better every day!</h3>
+            <div class="my-pic-container">
+                <div class="card" style="width: 18rem;">
+                    <img class="card-img-top" src="./assets/images/my-picture.jpg" alt="Card image cap">
+                    <div class="card-body">
+                      <p class="card-text">Getting Better Every Day!</p>
+                    </div>
             </div>
-
         </section> <!-- hero section close-->
 
         <main>
             <section id="about-me" class="layout">
-                <div class="flex-row">
+                <br><br>
+                <section class="bio">
                     <h2 class="section-title bio-flex">
                         About<br/>Me
                     </h2>
-                    <p>
-                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eum nam asperiores commodi sunt dolores veniam numquam, delectus incidunt sapiente sequi veritatis voluptatum rerum illum nemo, dolorem quibusdam. Eius hic accusantium enim nobis mollitia ex id culpa quos, sequi veniam error sint dolores soluta, esse aliquid ea natus magni ut beatae atque. Ex, quod? Nihil, nisi quos aliquid aperiam perspiciatis tempore.
-                        <br/>
-                        <br/>
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe minima quasi magnam aliquid sunt, qui pariatur facilis inventore praesentium autem fugit cum enim, et odit cumque aspernatur excepturi ducimus vel dicta reiciendis. Cupiditate et corporis architecto deserunt, nulla aspernatur, blanditiis vel, alias eligendi at laudantium iure veritatis. Voluptates ab obcaecati illo consequuntur ex amet, accusamus consectetur qui, autem necessitatibus numquam cum natus porro possimus dolorem voluptatibus nisi tenetur dolore ea vitae rerum hic minus itaque recusandae. Totam voluptate neque laboriosam.
-                    </p>
-                </div>
+                        <section class="bio-grid">
+                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eum nam asperiores commodi sunt dolores veniam numquam, delectus incidunt sapiente sequi veritatis voluptatum rerum illum nemo, dolorem quibusdam. Eius hic accusantium enim nobis mollitia ex id culpa quos, sequi veniam error sint dolores soluta, esse aliquid ea natus magni ut beatae atque. Ex, quod? Nihil, nisi quos aliquid aperiam perspiciatis tempore.
+                            <br/>
+                            <br/>
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe minima quasi magnam aliquid sunt, qui pariatur facilis inventore praesentium autem fugit cum enim, et odit cumque aspernatur excepturi ducimus vel dicta reiciendis. Cupiditate et corporis architecto deserunt, nulla aspernatur, blanditiis vel, alias eligendi at laudantium iure veritatis. Voluptates ab obcaecati illo consequuntur ex amet, accusamus consectetur qui, autem necessitatibus numquam cum natus porro possimus dolorem voluptatibus nisi tenetur dolore ea vitae rerum hic minus itaque recusandae. Totam voluptate neque laboriosam.
+                        </section>
             </section> <!-- about me section close -->
 
-            <section id="work" class="flex-row layout"> 
-                <h2 class="section-title bio-flex">
-                Work
+            <br><br><br>
+
+            <section class="work" id="work">
+                <h2>
+                    Work
                 </h2>
-                <div class="work-grid-wrapper">
-                    <div class="work-grid-container">
-                        <div class="work-grid-item box1">
-                            <h4 class="work-caption">Surf Report</h4>
-                            <p class="work-caption">MERN Stack</p>
+                    <section class="grid">
+                        <div class="main-grid-item">
+                            <button type="select">
+                                <a href="https://terahje.github.io/group-assignment/" alt="The URL of the deployed application"><strong>Wizier</strong></a>
+                                <br><br>
+                                    <div class="tech">
+                                        HTML/CSS/JQuery/Materialize
+                                    </div>
+                            </button>
                         </div>
-                            <div class="work-grid-item box2">
-                                <h4>LED Wall</h4>
-                                <p>Node/IoT</p>
-                            </div>
-                            <div class="work-grid-item box3">
-                                <h4>Calculator</h4>
-                                <p>React/Javascript/CSS</p>
-                            </div>
-                            <div class="work-grid-item box4">
-                                <h4>Pastel Puzzels</h4>
-                                <p>MERN Stack</p>
-                            </div>
-                            <div class="work-grid-item box5">
-                                <h4><a href="https://terahje.github.io/run-buddy/">Run Buddy</a></h4>
-                                <p>HTML/CSS</p>
-                            </div>
+                        <div class="grid-item-gitItDone">
+                            <button type="select">
+                                <a href="https://terahje.github.io/git-it-done/" alt="The URL of the deployed application"><strong>Git It Done</strong></a>
+                                <br><br>
+                                    <div class="tech">
+                                        HTML/CSS/JQuery/Moment.js
+                                    </div>
+                            </button>
                         </div>
-                    </div>
-                </div>
-                </section> <!-- work section close -->
+                        <div class="grid-item-week5Challenge">
+                            <button type="select">
+                                <a href="https://terahje.github.io/week-5-challenge/" alt="The URL of the deployed application"><strong>Work Day Scheduler</strong></a>
+                                <br><br>
+                                    <div class="tech">
+                                        HTML/CSS/JQuery/Moment.js/Bootstrap
+                                    </div>
+                            </button>
+                        </div>
+                        <div class="grid-item">
+                            <img src="https://via.placeholder.com/350x150" alt="placeholder">
+                        </div>
+                        <div class="grid-item">
+                            <img src="https://via.placeholder.com/350x150" alt="placeholder">
+                        </div>
+                    </section>
+            </section><!-- work section close -->
+        
+            <br><br><br><br><br>
 
                 <section id="contact-me" class="contact">
-                    <div class="flex-row">
-                    <h2 class="section-title contact-container">
+                    <h2>
                     Contact<br/>Me
                     </h2>
-                    <ul>
-                        <li>
-                        <a href="">717-798-6555</a>
-                        </li>
-                        <li>
-                        <a href="mailto:terahjequinn@gmail.com">Email</a>
-                        </li>
-                        <li>
-                        <a href="https://github.com/terahje">GitHub</a>
-                        </li>
-                    </ul>
-                    </div>
+                    <section class="grid-container">
+                        <div class="phone-number"><u>717.798.6555</u></div>
+                        <div class="email-address"><a href="mailto:terahjequinn@gmail.com">Email</a></div>
+                        <div class="github"><a href="https://github.com/terahje">GitHub</a></div>
                     </section> <!-- contact me close -->
-
-            
-          
+                </section>  
         </main>    
     </body>
-
-
-
-
-
-
-
-
-
-
-
-
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
  </html>
