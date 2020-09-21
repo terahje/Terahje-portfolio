@@ -270,9 +270,9 @@ transition: 0.6s
 
 .grid-container {
     display:grid;
-    grid-template-columns: 30px 130px 0px 0px 0px;
+    grid-template-columns: 30px 40px 0px 0px;
     color: var(--forth-color);
-    grid-gap: 150px;
+    grid-gap: 130px;
     padding: 50px 100px 0px 70px;
 }
 
