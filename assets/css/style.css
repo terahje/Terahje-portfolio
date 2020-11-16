@@ -225,6 +225,40 @@ transition: 0.6s
     margin-top: 65px;
 }
 
+.grid-item-cuttingEdge {
+    border: 3px solid var(--tertiary-color);
+    background-image: url("../images/cuttingEdge.jpg");
+    background-size: cover;
+    grid-column: span 4;
+}
+
+.grid-item-cuttingEdge button{
+    color: var(--forth-color);
+    background-color: var(--tertiary-color);
+    border: solid;
+    padding: 10px 20px;
+    font-size: 16px;
+    bottom: 50px; 
+    margin-top: 65px;
+}
+
+.grid-item-techBlog {
+    border: 3px solid var(--tertiary-color);
+    background-image: url("../images/techBlog.jpg");
+    background-size: cover;
+    grid-column: span 4;
+}
+
+.grid-item-techBlog button{
+    color: var(--forth-color);
+    background-color: var(--tertiary-color);
+    border: solid;
+    padding: 10px 20px;
+    font-size: 16px;
+    bottom: 50px; 
+    margin-top: 65px;
+}
+
 .tech {
     font-size: 10px;
 }
