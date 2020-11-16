@@ -8,6 +8,6 @@ This website was constructed to display my work for future consideration for emp
 HTML, CSS, JavaScript, Bootstrap
 
 
-https://terahje.github.io/week-2-challenge/
+[Link to Deployed Site](https://terahje.github.io/Terahje-portfolio/)
 
 ![](assets/images/screenshot.jpg)
